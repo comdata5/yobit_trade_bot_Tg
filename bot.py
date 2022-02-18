@@ -6,7 +6,7 @@ import time
 from telebot import types
 
 
-bot = telebot.TeleBot('5227507657:AAFchF1Cy4MxYi6V0Yn8a9xNg0ZVqdPsv2I')
+bot = telebot.TeleBot('token')
 
 def main():
     markup = types.ReplyKeyboardMarkup(resize_keyboard = True)
